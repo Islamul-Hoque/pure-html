@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!--keywords, Description, Author  -->    
+    <meta name="keywords" content="Portfolio, html, Ishfak">
+    <meta name="description" content=" This is Basic html document">
+    <meta name="author" content="Islamul hoque ishfak">
+
+    <title>Islamul Hoque Ishfak</title>
+
+<!--font-awesome : CDR-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer">
+
+<!--Google Fonts: Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!-- Favicon.ico -->
+<link rel="shortcut icon" href="/Social-Media-Pic/Pic/ISHFAK.jpeg" type="image/x-icon">
+
+<!-- CSS -->
+<link rel="stylesheet" href="    .css">
+
+</head>
+
+<body> 
+<!-- Section: navbar -->   
+<header> 
+    <nav>
+        <ul>
+            <li><a href="#home"  title="Visit home page"> Home </a></li>
+            <li><a href="#about" title="Visit about page"> About Me </a></li>
+            <li><a href="#skill"  title="Visit skill page"> My Skill </a></li>
+            <li><a href="#skill-progress" title="Visit Skill Progress page">Skill Progress </a></li>
+            <li><a href="#project" title="Visit project page " > My Project</a></li>
+            <li><a href="#contact" title="Visit contact page"> Contact </a></li>
+            <li><a href="#learning-source" title="Visit learning Source page"> Learning Source</a></li>
+        </ul>
+    </nav>
+</header><hr>
+
+<main>
+
+<!-- Section: intro -->
+    <section id="intro">
+        <h1>Islamul Hoque Ishfak</h1>
+        <figure>
+            <a href="https://www.facebook.com/ISLAMUL.HOQUE.ISHFAK.OFFICIAL" target="_blank">
+            <img src="ISHFAK.jpeg" width="250" alt="My Profile Picture" title="Islamul Hoque Ishfak"> </a>
+            <figcaption> <em>Full-stack web developer.</em></figcaption>
+        </figure>
+        
+    </section> <hr>
+
+<!-- Section-1:About -->   
+<section id="about">
+         <h2>About Me </h2>
+         <p> <strong>Experience: </strong> 5 Months experience in web development. </p> 
+         <p> <strong>Education: </strong> B.Sc. (Honors) in Computer Science and Engineering (CSE) </p> 
+        <!-- <button>Learn More about me</button> -->
+</section> <hr>
+
+<!-- Section-2:Skill -->   
+<section id="skill">
+    <h2>My Skill</h2>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript  <ul>
+                           <li> React.js</li>
+                           <li> Node.js</li>
+                           <li> Espress.js</li>
+                        </ul> </li>
+        <li> MongoDB  </li>
+        <li>Typescript </li>
+    </ol>
+
+
+    <table border="1" cellspacing="0" cellpadding="5">
+                <tr> <th> Technology </th>          <th> Proficiency </th> </tr>
+                <tr> <td>HTML </td>                 <td rowspan="2"> Expert </td> </tr>   
+                <tr> <td>CSS</td>                                                  </tr>
+                <tr> <td>JavaScript </td>           <td >Intermediate</td> </tr>      
+    </table>    
+</section> <hr>
+
+<!-- Section-3:Skill progress --> 
+<section id="skill-progress"> 
+       <div>
+         <h2>Skill progress</h2>       
+         <label for="htmlprogress"> HTML: </label>
+         <progress id="htmlprogress" max="100" value="95"> 95% </progress>
+       </div>
+
+       <div>     
+         <label for="cssprogress"> CSS: </label>
+         <progress id="cssprogress" max="100" value="85"> 85% </progress>
+       </div>
+       
+       <div>     
+         <label for="javascriptprogress"> JavaScript: </label>
+         <progress id="javascriptprogress" max="100" value="75"> 75% </progress>
+       </div>
+</section>
+
+<!-- Section-4:Experience Lavel --> 
+<section>
+          <div> <h2> Experience</h2>
+              <label for="Experience"> Experience: </label>
+               <meter id="Experience" min="0" max="10" value="5"> 5 years</meter> </div> 
+</section>  <hr>  
+
+<!-- Section-5:Project -->   
+<section id="project">
+    <h2>My Project</h2>
+        <ol>
+            <li>Portfolio website</li>  
+            <li>Bolg website </li>
+            <li>E-commerce website </li>
+        </ol>
+
+        <video src="laptop-reviow.mp4" width="300" height="200" title="Laptop unboxing video" controls>
+                    Your browser do no support this type of videp.
+        </video>
+</section> <hr>
+
+<!-- Section-6:Contact -->   
+<section id="contact"> 
+    <h2>Contact </h2>
+        <form action="https://formspree.io/f/mqabpwle" method="POST">
+            
+            <fieldset style="width:50%;"> <!-- Name,E-mail, Password, Gender, Age --> 
+                <legend>Log-in</legend>
+                <div>
+                    <label for="name"> Name: </label>
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                </div>
+
+                <div>
+                    <label for="email"> E-mail: </label>
+                    <input type="text" id="email" name="email" placeholder="Email address" required>
+                </div>
+
+                <div>
+                    <label for="password">Password: </label>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
+
+                <div> 
+                    <p> Choose Gender: 
+                    <input type="radio" id="male" name="gender" >
+                    <label for="male"> Male </label>
+
+                    <input type="radio" id="female" name="gender" >
+                    <label for="female"> Female </label>
+                    </p>
+                </div>
+
+                <div>
+                    <label for="age"> Age: </label>
+                    <input type="number" id="age" name="age" min="18" max="50" placeholder="Age" required>
+                </div>
+            </fieldset> <br>
+
+            <fieldset style="width:50%;"> <legend>Others Info</legend>
+            <div>  <!--learning web developer-->
+                  <label for="experience"> Number of learning web developer: </label>
+                  <input type="range" id="experience"  name="experience" min="0" max="5">   
+            </div>
+
+           <div> <!--fovorite programming language-->
+                  <label for="programming">Your fovorite programming language : </label>
+                  <input list="language" id="programming"  name="programming" placeholder="Programming" required >  
+
+                   <!--datalist:programming language -->
+                        <datalist id="language">
+                            <option value="C">     
+                            <option value="C++">   
+                            <option value="Python"> 
+                            <option value="Java">  
+                            <option value="PHP">   
+                        </datalist>  
+            </div>           
+
+            <div> <!-- Subject -->
+                  <label for="subject"> Subject: </label>          
+                   <!--Subject:list-->
+                        <select id="subject">
+                              <option value="Inquiry"> Inquiry </option>
+                              <option value="Feedback"> Feedback</option>
+                              <option value="jobopportunity"> Job Opportunity</option>         
+                        </select>
+            </div>
+
+            <div> <!-- Meassage -->
+                  <label for="meassage"> Meassage: </label>
+                  <textarea id="meassage" name="meassage" rows="3" cols="30"
+                            placeholder="Please give me your valuable feedback here" required > </textarea>
+            </div>
+
+            <div> <!-- Website -->
+                <label for="website">Website: </label>
+                <input type="url" id="website" name="website" pattern="https?://.+" placeholder="Website" required >
+            </div>
+
+            <div> <!-- Image -->
+                <label for="image"> Upload image: </label> 
+                <input type="file" id="image" name="image" accept="image/*" required >
+            </div>
+
+            <div> <!-- COlor -->
+                <label for="favorit"> Favorit Color: </label>
+                <input type="color" id="favorit" name="favorit" value="#ff00FF" >
+            </div>
+            </fieldset><br>
+
+            <button type="submit"> Submit </button>
+            <button type="reset"> Reset </button>        
+        </fieldset> 
+    </form>     
+</section> <hr>
+
+<!-- My Learning Source -->
+<section id="learning-source">
+    <h2>My Learning Source</h2>
+        <div>
+            <figure> <a href="https://youtube.com/playlist?list=PLgH5QX0i9K3pShEf_RCcVqPKxFm7sOLVD&si=qt2kuBoA43Oi2tMi" target="_blank" > 
+                            <img src="Roadmap.jpg" width="300" alt="Full-stack web development Roadmap" title="Full-stack web development Roadmap" > </a>
+                            <figcaption> Full-stack web development Roadmap </figcaption>  
+            </figure> 
+
+            <figure> <a href="https://web.programming-hero.com/course-details" target="_blank" > 
+                            <img src="/Social-Media-Pic/Pic/PH-Website.jpg" width="300" alt="Programming Hero" title="Programming Hero" > </a>
+                            <figcaption> Programming Hero </figcaption>  
+            </figure>
+
+            <figure> <a href="https://youtube.com/playlist?list=PLnxQfwjuww2-JstVS7aMI3S2tMHx8K5rb&si=hzKGY3BmM9FNvhkH" target="_blank">
+                            <img src="HTML play list.png" width="300" alt="HTML play list" title="HTML play list" ></a>
+                            <figcaption>HTML Play List</figcaption>
+            </figure>
+
+            <figure> <a href="https://youtube.com/playlist?list=PLnxQfwjuww285D7spgS-vmkHBvAHjJOKY&si=hO0jA_qKb-HooOXS" target="_blank">
+                    <img src="CSS play list.png" alt="CSS play list" width="300" title="CSS play list"> </a> 
+                    <figcaption>CSSL Play List</figcaption>
+            </figure>
+            
+          </div>
+</section> <hr>
+</main>
+
+<!-- Footer-->
+<footer>
+    <section><!-- Social Link: Facebook, Instagram, Twitter, Linkedin, Youtube -->
+        <h3> Follow Me </h3>
+        <ul>
+            <li><a href=" https://www.facebook.com/ISLAMUL.HOQUE.ISHFAK.OFFICIAL " target="_blank" aria-label="Facebook Profile"> 
+                <i class=" fa-brands fa-facebook"> </i>  </a> </li>
+
+            <li><a href=" https://www.instagram.com/islamul.hoque.ishfak " target="_blank"> 
+                <i class=" fa-brands fa-instagram">  </i> </a> </li>
+            
+            <li><a href=" https://github.com/Islamul-Hoque " target="_blank"> 
+                <i class=" fa-brands fa-github">  </i> </a> </li>
+
+            <li><a href=" https://x.com/ISHFAK2003 " target="_blank"> 
+                <i class=" fa-brands fa-twitter"> </i>  </a> </li>  
+
+            <li><a href=" https://www.linkedin.com/in/Islamul-Hoque " target="_blank"> 
+                <i class=" fa-brands  fa-linkedin"> </i>  </a> </li>     
+
+            <li><a href=" https://www.youtube.com/@technicalishfakrox " target="_blank"> 
+                <i class=" fa-brands fa-youtube">  </i> </a> </li> 
+            
+            <li><a href="mailto:islamulhoque2006@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope">  </i> </a> </li>
+            
+            <li><a href="tel:+8801999932122" target="_blank"> 
+                <i class="fa-solid fa-phone-volume">  </i> </a></li>     
+        </ul><hr>
+
+<!-- CopyRight -->
+    <section><h2>Copyright</h2>
+      <p>&copy; Copyright by ISHFAK. All rights reserved.</p>
+      <p>Developed with &hearts;</p>   
+    </section>
+    </section><hr>
+
+    <section> <!-- Google Map --> 
+        <h3>Location</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29573.023666076788!2d92.0586057867595!3d22.102020921456244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ad13da116afc41%3A0x998ef2f241e91e72!2sSatkania!5e0!3m2!1sen!2sbd!4v1749387253953!5m2!1sen!2sbd" 
+                 width="300" height="250" title="Home map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section><hr>       
+</footer>
+</body>
+</html>
